@@ -11,6 +11,8 @@
 		6F1EFFA92C55DEFD00C4283C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EFFA82C55DEFD00C4283C /* ContentView.swift */; };
 		6F1EFFAB2C55DEFE00C4283C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1EFFAA2C55DEFE00C4283C /* Assets.xcassets */; };
 		6F1EFFAF2C55DEFE00C4283C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1EFFAE2C55DEFE00C4283C /* Preview Assets.xcassets */; };
+		6F1EFFB72C55DF2B00C4283C /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EFFB62C55DF2B00C4283C /* CustomPicker.swift */; };
+		6F1EFFBA2C56441600C4283C /* DebugAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EFFB92C56441600C4283C /* DebugAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6F1EFFAA2C55DEFE00C4283C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F1EFFAC2C55DEFE00C4283C /* UIElement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UIElement.entitlements; sourceTree = "<group>"; };
 		6F1EFFAE2C55DEFE00C4283C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F1EFFB62C55DF2B00C4283C /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		6F1EFFB92C56441600C4283C /* DebugAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		6F1EFFA52C55DEFD00C4283C /* UIElement */ = {
 			isa = PBXGroup;
 			children = (
+				6F1EFFB82C56440600C4283C /* Animation */,
+				6F1EFFB52C55DF0600C4283C /* Picker */,
 				6F1EFFA62C55DEFD00C4283C /* UIElementApp.swift */,
 				6F1EFFA82C55DEFD00C4283C /* ContentView.swift */,
 				6F1EFFAA2C55DEFE00C4283C /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				6F1EFFAE2C55DEFE00C4283C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F1EFFB52C55DF0600C4283C /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				6F1EFFB62C55DF2B00C4283C /* CustomPicker.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		6F1EFFB82C56440600C4283C /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6F1EFFB92C56441600C4283C /* DebugAnimations.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 			files = (
 				6F1EFFA92C55DEFD00C4283C /* ContentView.swift in Sources */,
 				6F1EFFA72C55DEFD00C4283C /* UIElementApp.swift in Sources */,
+				6F1EFFBA2C56441600C4283C /* DebugAnimations.swift in Sources */,
+				6F1EFFB72C55DF2B00C4283C /* CustomPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
